@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "titulo": "Vaso",
+        "descripcion": "1 sabor a elección",
+        "precio": 1000,
+        "img": "https://catalogo.productosrume.es/image/cache/data/44236-500x500.jpg" 
+    },
+    {
+        "id": 2,
+        "titulo": "Cucuruchón",
+        "descripcion": "2 sabores a elección",
+        "precio": 1700,
+        "img": "https://nutririana.com/wp-content/uploads/2016/07/mae-mu-Rz5o0osnN6Q-unsplash-scaled.jpg" 
+    },
+    {
+        "id": 3,
+        "titulo": "Doble Boca",
+        "descripcion": "3 sabores a elección",
+        "precio": 2100,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_727735-MLA49023444818_022022-O.webp" 
+    },
+    {
+        "id": 4,
+        "titulo": "Barquillo",
+        "descripcion": "3 sabores a elección",
+        "precio": 2600,
+        "img": "https://nutririana.com/wp-content/uploads/2016/07/mae-mu-Rz5o0osnN6Q-unsplash-scaled.jpg" 
+    },
+    {
+        "id": 5,
+        "titulo": "300 gr",
+        "descripcion": "3 sabores a elección",
+        "precio": 2900,
+        "img": "https://static.wixstatic.com/media/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg/v1/fill/w_480,h_360,al_c,lg_1,q_80,enc_auto/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg" 
+    },
+    {
+        "id": 6,
+        "titulo": "1/2 kg",
+        "descripcion": "3 sabores a elección",
+        "precio": 3900,
+        "img": "https://static.wixstatic.com/media/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg/v1/fill/w_480,h_360,al_c,lg_1,q_80,enc_auto/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg" 
+    },
+    {
+        "id": 7,
+        "titulo": "3/4 kg",
+        "descripcion": "4 sabores a elección",
+        "precio": 6200,
+        "img": "https://static.wixstatic.com/media/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg/v1/fill/w_480,h_360,al_c,lg_1,q_80,enc_auto/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg" 
+    },
+    {
+        "id": 8,
+        "titulo": "1 kg",
+        "descripcion": "4 sabores a elección",
+        "precio": 7000,
+        "img": "https://static.wixstatic.com/media/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg/v1/fill/w_480,h_360,al_c,lg_1,q_80,enc_auto/91c5ee_dd7bd8a47cbe4a6da7c8a1f69f6378e8.jpg" 
+    },
+    {
+        "id": 9,
+        "titulo": "Batido Chico",
+        "descripcion": "2 sabores a elección",
+        "precio": 2000,
+        "img": "https://i.pinimg.com/564x/9e/da/9a/9eda9a5820763c2c184dfc5219bdc74a.jpg" 
+    },
+    {
+        "id": 10,
+        "titulo": "Batido Grande",
+        "descripcion": "2 sabores a elección",
+        "precio": 2500,
+        "img": "https://i.pinimg.com/564x/9e/da/9a/9eda9a5820763c2c184dfc5219bdc74a.jpg" 
+    },
+    {
+        "id": 11,
+        "titulo": "Candy",
+        "descripcion": "Americana / Dulce de leche / Mixto",
+        "precio": 2000,
+        "img": "https://cache-mcd-ecommerce.appmcdonalds.com/images/AR/DLV_53_v1.png" 
+    }
+]

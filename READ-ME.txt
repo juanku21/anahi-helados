@@ -1,0 +1,17 @@
+
+El proyecto consiste en un sitio web para una heladería local
+
+----------------------------------------------------------------------------------------------
+
+el wireframe que utilicé quedó como un boceto, la idea inicial fue sufriendo modificaciones
+
+IMPLEMENTACIONES DE INTERÉS
+
+los datos correctos del login. user: admin, contraseña: frutilla
+cuando la contraseña ingresada en el login es incorrecta al usuario se le muestra un warning
+se diseño un sistema de administración que utiliza sesión storage
+en el sistema de gestión el usuario puede añadir productos y promociones con imágenes
+la navegación a la página admin se encuentra condicionada por el sesión storage también 
+no se consumen APIs externas, sino locales (en formato JSON) para la creación de cards
+se utilizó la librería tailwind para importar elementos complejos como navbars responsive y carruseles
+el proyecto es 100% responsive en todos los dispositivos 

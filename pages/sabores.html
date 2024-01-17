@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helados Anahí - Inicio</title>
+    <!-- links de instalación CDN tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                fontFamily: {
+                    sans: ["Roboto", "sans-serif"],
+                    body: ["Roboto", "sans-serif"],
+                    mono: ["ui-monospace", "monospace"],
+                },
+            },
+            corePlugins: {
+                preflight: false,
+            },
+        };
+    </script>
+    <!-- linkeamos css propio -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- navbar - importada de tailwind -->
+        <nav class="relative flex w-full flex-nowrap items-center justify-between bg-[#7fffd4] py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 lg:flex-wrap lg:justify-start lg:py-4"
+            data-te-navbar-ref>
+            <div class="flex w-full flex-wrap items-center justify-between px-3">
+                <div class="conteiner-img">
+                    <div>
+                        <img src="../assets/logo-heladeria.jpeg" alt="logo-heladeria">
+                    </div>
+                </div>
+                <!-- Hamburger button for mobile view -->
+                <button
+                    class="block border-0 bg-transparent px-2 text-neutral-500 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+                    type="button" data-te-collapse-init data-te-target="#navbarSupportedContent3"
+                    aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Hamburger icon -->
+                    <span class="[&>svg]:w-7">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7">
+                            <path fill-rule="evenodd"
+                                d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </span>
+                </button>
+
+                <!-- Collapsible navbar container -->
+                <div class="!visible mt-2 hidden flex-grow basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto"
+                    id="navbarSupportedContent3" data-te-collapse-item>
+                    <!-- Left links -->
+                    <div class="list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row correcion" id="contNav"
+                        data-te-navbar-nav-ref>
+                        <!-- Home link -->
+                        <div class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-1" data-te-nav-item-ref>
+                            <a class="active disabled:text-black/30 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400 responsive-letter"
+                                aria-current="page" href="../index.html" data-te-nav-link-ref>INICIO</a>
+                        </div>
+                        <!-- sabores link -->
+                        <div class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                            <a class="p-0 text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400 responsive-letter"
+                                href="./sabores.html" data-te-nav-link-ref>SABORES</a>
+                        </div>
+                        <!-- promos link -->
+                        <div class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-item-ref>
+                            <a class="p-0 text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400 responsive-letter"
+                                href="./promos.html" data-te-nav-link-ref>PROMOS</a>
+                        </div>
+                        <!--login link -->
+                        <div class="mb-4 pl-2 lg:mb-0 lg:pl-0 lg:pr-1" data-te-nav-link-ref>
+                            <a class="p-0 text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400 responsive-letter"
+                                href="./login.html" data-te-nav-link-ref>LOGIN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-sabores">
+            <h1>¡CONOCÉ NUESTROS SABORES ÚNICOS!</h1>
+            <div class="conteiner-cards-s">
+                <!-- aca van las cards de los sabores -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <div>
+                <img src="../assets/logo-heladeria.jpeg" alt="logo-heladeria">
+            </div>
+        </div>
+        <div class="contacto-negocio">
+            <h4>CONTACTO</h4>
+            <ul>
+                <li>INSTAGRAN</li>
+                <li>TELÉFONO</li>
+                <li>EMAIL</li>
+                <li>DIRECCIÓN</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<!-- otro link de instalación CDN de tailwind -->
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+<!-- link de js propio -->
+<script src="../js/sabores.js"></script>
+</html>

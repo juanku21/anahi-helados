@@ -1,3 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 /* header */
 
 header{
@@ -596,7 +603,6 @@ footer{
     .footer-logo div{
         width: 126px;
         height: 120px;
-
     }
     .conteiner-img div{
         width: 60px;
@@ -642,6 +648,7 @@ footer{
 @media (max-width: 430px){
     footer{
         flex-direction: column;
+        min-height: 20vh;
     }
     .footer-logo{
         width: 100%;
@@ -728,9 +735,6 @@ footer{
         font-size: 18px;
         margin-bottom: 4%;
     }
-    .login-section{
-        min-height: 80vh;
-    }
     .login-section h1{
         font-size: 34px;
     }
@@ -805,24 +809,11 @@ footer{
 }
 
 @media (max-width: 320px){
-    footer{
-        flex-direction: column;
-    }
-    .footer-logo{
-        width: 100%;
-    }
     .footer-logo div{
-        margin-top: 10%;
-        margin-bottom: 10%;
         width: 86px;
         height: 80px;
     }
-    .contacto-negocio{
-        width: 100%;
-        margin-bottom: 8%;
-    }
     .contacto-negocio h4{
-        text-align: center;
         font-size: 18px;
     }
     .contacto-negocio ul li{
